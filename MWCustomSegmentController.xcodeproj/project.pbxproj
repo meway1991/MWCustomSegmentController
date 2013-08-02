@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D005599517AB8FE900917435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D005599417AB8FE900917435 /* UIKit.framework */; };
+		D005599717AB8FE900917435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D005599617AB8FE900917435 /* Foundation.framework */; };
+		D005599917AB8FE900917435 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D005599817AB8FE900917435 /* CoreGraphics.framework */; };
+		D005599F17AB8FE900917435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D005599D17AB8FE900917435 /* InfoPlist.strings */; };
+		D00559A117AB8FE900917435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00559A017AB8FE900917435 /* main.m */; };
+		D00559A517AB8FE900917435 /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00559A417AB8FE900917435 /* MWAppDelegate.m */; };
+		D00559A717AB8FE900917435 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559A617AB8FE900917435 /* Default.png */; };
+		D00559A917AB8FE900917435 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559A817AB8FE900917435 /* Default@2x.png */; };
+		D00559AB17AB8FEA00917435 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559AA17AB8FEA00917435 /* Default-568h@2x.png */; };
+		D00559AE17AB8FEA00917435 /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00559AD17AB8FEA00917435 /* MWViewController.m */; };
+		D00559B117AB8FEA00917435 /* MWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00559AF17AB8FEA00917435 /* MWViewController.xib */; };
+		D00559BA17AB907000917435 /* MWCustomSegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00559B917AB907000917435 /* MWCustomSegementView.m */; };
+		D00559C317AB90E600917435 /* selectedbg.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559BC17AB90E600917435 /* selectedbg.png */; };
+		D00559D417AB914B00917435 /* gs_agent-.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559CC17AB914B00917435 /* gs_agent-.png */; };
+		D00559D517AB914B00917435 /* gs_agent.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559CD17AB914B00917435 /* gs_agent.png */; };
+		D00559D617AB914B00917435 /* gs_intro-.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559CE17AB914B00917435 /* gs_intro-.png */; };
+		D00559D717AB914B00917435 /* gs_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559CF17AB914B00917435 /* gs_intro.png */; };
+		D00559D817AB914B00917435 /* gs_navbg.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559D017AB914B00917435 /* gs_navbg.png */; };
+		D00559D917AB914B00917435 /* gs_navbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559D117AB914B00917435 /* gs_navbg@2x.png */; };
+		D00559DA17AB914B00917435 /* gs_pro-.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559D217AB914B00917435 /* gs_pro-.png */; };
+		D00559DB17AB914B00917435 /* gs_pro.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559D317AB914B00917435 /* gs_pro.png */; };
+		D00559E217AB91AD00917435 /* leftbut.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559DC17AB91AB00917435 /* leftbut.png */; };
+		D00559E317AB91AD00917435 /* leftbuta.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559DD17AB91AB00917435 /* leftbuta.png */; };
+		D00559E417AB91AD00917435 /* midla.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559DE17AB91AC00917435 /* midla.png */; };
+		D00559E517AB91AD00917435 /* midl.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559DF17AB91AC00917435 /* midl.png */; };
+		D00559E617AB91AD00917435 /* ritbut.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559E017AB91AC00917435 /* ritbut.png */; };
+		D00559E717AB91AD00917435 /* ritbuta.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559E117AB91AC00917435 /* ritbuta.png */; };
+		D00559EE17AB92AB00917435 /* Com_lefta.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559E817AB92AA00917435 /* Com_lefta.png */; };
+		D00559EF17AB92AB00917435 /* Com_leftbg.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559E917AB92AA00917435 /* Com_leftbg.png */; };
+		D00559F017AB92AB00917435 /* Com_midla.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559EA17AB92AA00917435 /* Com_midla.png */; };
+		D00559F217AB92AB00917435 /* Com_righta.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559EC17AB92AB00917435 /* Com_righta.png */; };
+		D00559F317AB92AB00917435 /* Com_rightbg.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559ED17AB92AB00917435 /* Com_rightbg.png */; };
+		D00559F517AB952F00917435 /* Com_midlbg.png in Resources */ = {isa = PBXBuildFile; fileRef = D00559F417AB952F00917435 /* Com_midlbg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D005599117AB8FE900917435 /* MWCustomSegmentController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWCustomSegmentController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D005599417AB8FE900917435 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D005599617AB8FE900917435 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D005599817AB8FE900917435 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D005599C17AB8FE900917435 /* MWCustomSegmentController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MWCustomSegmentController-Info.plist"; sourceTree = "<group>"; };
+		D005599E17AB8FE900917435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D00559A017AB8FE900917435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D00559A217AB8FE900917435 /* MWCustomSegmentController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MWCustomSegmentController-Prefix.pch"; sourceTree = "<group>"; };
+		D00559A317AB8FE900917435 /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		D00559A417AB8FE900917435 /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
+		D00559A617AB8FE900917435 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D00559A817AB8FE900917435 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D00559AA17AB8FEA00917435 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D00559AC17AB8FEA00917435 /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
+		D00559AD17AB8FEA00917435 /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
+		D00559B017AB8FEA00917435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWViewController.xib; sourceTree = "<group>"; };
+		D00559B817AB907000917435 /* MWCustomSegementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCustomSegementView.h; sourceTree = "<group>"; };
+		D00559B917AB907000917435 /* MWCustomSegementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWCustomSegementView.m; sourceTree = "<group>"; };
+		D00559BC17AB90E600917435 /* selectedbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedbg.png; sourceTree = "<group>"; };
+		D00559CC17AB914B00917435 /* gs_agent-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gs_agent-.png"; sourceTree = "<group>"; };
+		D00559CD17AB914B00917435 /* gs_agent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gs_agent.png; sourceTree = "<group>"; };
+		D00559CE17AB914B00917435 /* gs_intro-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gs_intro-.png"; sourceTree = "<group>"; };
+		D00559CF17AB914B00917435 /* gs_intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gs_intro.png; sourceTree = "<group>"; };
+		D00559D017AB914B00917435 /* gs_navbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gs_navbg.png; sourceTree = "<group>"; };
+		D00559D117AB914B00917435 /* gs_navbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gs_navbg@2x.png"; sourceTree = "<group>"; };
+		D00559D217AB914B00917435 /* gs_pro-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gs_pro-.png"; sourceTree = "<group>"; };
+		D00559D317AB914B00917435 /* gs_pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gs_pro.png; sourceTree = "<group>"; };
+		D00559DC17AB91AB00917435 /* leftbut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftbut.png; sourceTree = "<group>"; };
+		D00559DD17AB91AB00917435 /* leftbuta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftbuta.png; sourceTree = "<group>"; };
+		D00559DE17AB91AC00917435 /* midla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midla.png; sourceTree = "<group>"; };
+		D00559DF17AB91AC00917435 /* midl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midl.png; sourceTree = "<group>"; };
+		D00559E017AB91AC00917435 /* ritbut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ritbut.png; sourceTree = "<group>"; };
+		D00559E117AB91AC00917435 /* ritbuta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ritbuta.png; sourceTree = "<group>"; };
+		D00559E817AB92AA00917435 /* Com_lefta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Com_lefta.png; sourceTree = "<group>"; };
+		D00559E917AB92AA00917435 /* Com_leftbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Com_leftbg.png; sourceTree = "<group>"; };
+		D00559EA17AB92AA00917435 /* Com_midla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Com_midla.png; sourceTree = "<group>"; };
+		D00559EC17AB92AB00917435 /* Com_righta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Com_righta.png; sourceTree = "<group>"; };
+		D00559ED17AB92AB00917435 /* Com_rightbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Com_rightbg.png; sourceTree = "<group>"; };
+		D00559F417AB952F00917435 /* Com_midlbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Com_midlbg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D005598E17AB8FE900917435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D005599517AB8FE900917435 /* UIKit.framework in Frameworks */,
+				D005599717AB8FE900917435 /* Foundation.framework in Frameworks */,
+				D005599917AB8FE900917435 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D005598817AB8FE900917435 = {
+			isa = PBXGroup;
+			children = (
+				D005599A17AB8FE900917435 /* MWCustomSegmentController */,
+				D005599317AB8FE900917435 /* Frameworks */,
+				D005599217AB8FE900917435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D005599217AB8FE900917435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D005599117AB8FE900917435 /* MWCustomSegmentController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D005599317AB8FE900917435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D005599417AB8FE900917435 /* UIKit.framework */,
+				D005599617AB8FE900917435 /* Foundation.framework */,
+				D005599817AB8FE900917435 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D005599A17AB8FE900917435 /* MWCustomSegmentController */ = {
+			isa = PBXGroup;
+			children = (
+				D00559B717AB905400917435 /* MWCustomSegmentController */,
+				D00559A317AB8FE900917435 /* MWAppDelegate.h */,
+				D00559A417AB8FE900917435 /* MWAppDelegate.m */,
+				D00559AC17AB8FEA00917435 /* MWViewController.h */,
+				D00559AD17AB8FEA00917435 /* MWViewController.m */,
+				D00559AF17AB8FEA00917435 /* MWViewController.xib */,
+				D005599B17AB8FE900917435 /* Supporting Files */,
+			);
+			path = MWCustomSegmentController;
+			sourceTree = "<group>";
+		};
+		D005599B17AB8FE900917435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D00559BB17AB90D600917435 /* Images */,
+				D005599C17AB8FE900917435 /* MWCustomSegmentController-Info.plist */,
+				D005599D17AB8FE900917435 /* InfoPlist.strings */,
+				D00559A017AB8FE900917435 /* main.m */,
+				D00559A217AB8FE900917435 /* MWCustomSegmentController-Prefix.pch */,
+				D00559A617AB8FE900917435 /* Default.png */,
+				D00559A817AB8FE900917435 /* Default@2x.png */,
+				D00559AA17AB8FEA00917435 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D00559B717AB905400917435 /* MWCustomSegmentController */ = {
+			isa = PBXGroup;
+			children = (
+				D00559B817AB907000917435 /* MWCustomSegementView.h */,
+				D00559B917AB907000917435 /* MWCustomSegementView.m */,
+			);
+			path = MWCustomSegmentController;
+			sourceTree = "<group>";
+		};
+		D00559BB17AB90D600917435 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D00559DC17AB91AB00917435 /* leftbut.png */,
+				D00559DD17AB91AB00917435 /* leftbuta.png */,
+				D00559DE17AB91AC00917435 /* midla.png */,
+				D00559DF17AB91AC00917435 /* midl.png */,
+				D00559E017AB91AC00917435 /* ritbut.png */,
+				D00559E117AB91AC00917435 /* ritbuta.png */,
+				D00559CC17AB914B00917435 /* gs_agent-.png */,
+				D00559CD17AB914B00917435 /* gs_agent.png */,
+				D00559CE17AB914B00917435 /* gs_intro-.png */,
+				D00559CF17AB914B00917435 /* gs_intro.png */,
+				D00559D017AB914B00917435 /* gs_navbg.png */,
+				D00559D117AB914B00917435 /* gs_navbg@2x.png */,
+				D00559D217AB914B00917435 /* gs_pro-.png */,
+				D00559D317AB914B00917435 /* gs_pro.png */,
+				D00559E817AB92AA00917435 /* Com_lefta.png */,
+				D00559E917AB92AA00917435 /* Com_leftbg.png */,
+				D00559EA17AB92AA00917435 /* Com_midla.png */,
+				D00559F417AB952F00917435 /* Com_midlbg.png */,
+				D00559EC17AB92AB00917435 /* Com_righta.png */,
+				D00559ED17AB92AB00917435 /* Com_rightbg.png */,
+				D00559BC17AB90E600917435 /* selectedbg.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D005599017AB8FE900917435 /* MWCustomSegmentController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00559B417AB8FEA00917435 /* Build configuration list for PBXNativeTarget "MWCustomSegmentController" */;
+			buildPhases = (
+				D005598D17AB8FE900917435 /* Sources */,
+				D005598E17AB8FE900917435 /* Frameworks */,
+				D005598F17AB8FE900917435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWCustomSegmentController;
+			productName = MWCustomSegmentController;
+			productReference = D005599117AB8FE900917435 /* MWCustomSegmentController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D005598917AB8FE900917435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = meway;
+			};
+			buildConfigurationList = D005598C17AB8FE900917435 /* Build configuration list for PBXProject "MWCustomSegmentController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D005598817AB8FE900917435;
+			productRefGroup = D005599217AB8FE900917435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D005599017AB8FE900917435 /* MWCustomSegmentController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D005598F17AB8FE900917435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D005599F17AB8FE900917435 /* InfoPlist.strings in Resources */,
+				D00559A717AB8FE900917435 /* Default.png in Resources */,
+				D00559A917AB8FE900917435 /* Default@2x.png in Resources */,
+				D00559AB17AB8FEA00917435 /* Default-568h@2x.png in Resources */,
+				D00559B117AB8FEA00917435 /* MWViewController.xib in Resources */,
+				D00559C317AB90E600917435 /* selectedbg.png in Resources */,
+				D00559D417AB914B00917435 /* gs_agent-.png in Resources */,
+				D00559D517AB914B00917435 /* gs_agent.png in Resources */,
+				D00559D617AB914B00917435 /* gs_intro-.png in Resources */,
+				D00559D717AB914B00917435 /* gs_intro.png in Resources */,
+				D00559D817AB914B00917435 /* gs_navbg.png in Resources */,
+				D00559D917AB914B00917435 /* gs_navbg@2x.png in Resources */,
+				D00559DA17AB914B00917435 /* gs_pro-.png in Resources */,
+				D00559DB17AB914B00917435 /* gs_pro.png in Resources */,
+				D00559E217AB91AD00917435 /* leftbut.png in Resources */,
+				D00559E317AB91AD00917435 /* leftbuta.png in Resources */,
+				D00559E417AB91AD00917435 /* midla.png in Resources */,
+				D00559E517AB91AD00917435 /* midl.png in Resources */,
+				D00559E617AB91AD00917435 /* ritbut.png in Resources */,
+				D00559E717AB91AD00917435 /* ritbuta.png in Resources */,
+				D00559EE17AB92AB00917435 /* Com_lefta.png in Resources */,
+				D00559EF17AB92AB00917435 /* Com_leftbg.png in Resources */,
+				D00559F017AB92AB00917435 /* Com_midla.png in Resources */,
+				D00559F217AB92AB00917435 /* Com_righta.png in Resources */,
+				D00559F317AB92AB00917435 /* Com_rightbg.png in Resources */,
+				D00559F517AB952F00917435 /* Com_midlbg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D005598D17AB8FE900917435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00559A117AB8FE900917435 /* main.m in Sources */,
+				D00559A517AB8FE900917435 /* MWAppDelegate.m in Sources */,
+				D00559AE17AB8FEA00917435 /* MWViewController.m in Sources */,
+				D00559BA17AB907000917435 /* MWCustomSegementView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D005599D17AB8FE900917435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D005599E17AB8FE900917435 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D00559AF17AB8FEA00917435 /* MWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00559B017AB8FEA00917435 /* en */,
+			);
+			name = MWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00559B217AB8FEA00917435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D00559B317AB8FEA00917435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00559B517AB8FEA00917435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWCustomSegmentController/MWCustomSegmentController-Prefix.pch";
+				INFOPLIST_FILE = "MWCustomSegmentController/MWCustomSegmentController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D00559B617AB8FEA00917435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWCustomSegmentController/MWCustomSegmentController-Prefix.pch";
+				INFOPLIST_FILE = "MWCustomSegmentController/MWCustomSegmentController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D005598C17AB8FE900917435 /* Build configuration list for PBXProject "MWCustomSegmentController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00559B217AB8FEA00917435 /* Debug */,
+				D00559B317AB8FEA00917435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00559B417AB8FEA00917435 /* Build configuration list for PBXNativeTarget "MWCustomSegmentController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00559B517AB8FEA00917435 /* Debug */,
+				D00559B617AB8FEA00917435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D005598917AB8FE900917435 /* Project object */;
+}
